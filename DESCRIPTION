@@ -1,12 +1,12 @@
 Package: treedataverse
-Title: Easily Install and Load Select Packages
+Title: Easily Install and Load the 'treedataverse'
 Version: 0.0.1
 Authors@R: c(
-    person("Michael Wayne", "Kearney", , email = "mike.wayne.kearney@gmail.com", role = c("aut", "cre"))
+            person("Guangchuang", "Yu",     email = "guangchuangyu@gmail.com", role = c("aut", "cre", "cph"), comment = c(ORCID = "0000-0002-6485-8781"))
   )
-Description: The 'treedataverseverse' is selection of packages designed to be loaded
-    in concert. The purpose of this package is to make it easy to install and 
-    subsequently load those packages.
+Description: The 'treedataverse' is set of packages (mainly 'tidytree', 'treeio', 'ggtree', and 'ggtreeExtra')
+             that work for processing and visualizing trees with associated data. This package is designed to
+             make it easy to install and load multiple 'treedataverse' packages in a single step. 
 Depends: 
     R (>= 3.1)
 Imports: 
@@ -15,6 +15,7 @@ Imports:
     crayon (>= 1.3.4),
     dplyr (>= 0.7.4),
     purrr (>= 0.2.4),
+    magrittr,
     rstudioapi (>= 0.7),
     tidytree,
     tibble (>= 1.4.2),
@@ -23,5 +24,5 @@ Imports:
     ggtree,
     ggtreeExtra
 Encoding: UTF-8
-LazyData: true
+License: Artistic-2.0
 RoxygenNote: 7.1.2

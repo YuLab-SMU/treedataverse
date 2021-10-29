@@ -4,22 +4,18 @@
 <!-- badges: start -->
 <!-- badges: end -->
 
-The goal of treedataverse is to ...
+The goal of `treedataverse` is to make it easy to install and load multiple 'treedataverse' packages (mainly `tidytree`, `treeio`, `ggtree`, and `ggtreeExtra`) in a single step.
 
 ## Installation
 
 You can install the development version of treedataverse like so:
 
 ``` r
-# FILL THIS IN! HOW CAN PEOPLE INSTALL YOUR DEV PACKAGE?
+remotes::install_github("YuLab-SMU/treedataverse")
 ```
 
-## Example
+## Usage
 
-This is a basic example which shows you how to solve a common problem:
+`library(treedataverse)` will load the core `treedataverse` packages:
 
-``` r
-library(treedataverse)
-## basic example code
-```
-
+![](2021-10-29_16-41.png)

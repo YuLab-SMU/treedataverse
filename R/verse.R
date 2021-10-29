@@ -1,4 +1,4 @@
-core <- c("ape", "tidytree", "treeio", "dplyr", "ggplot2", "ggtree", "ggtreeExtra")
+core <- c("ape", "dplyr", "ggplot2", "tidytree", "treeio", "ggtree", "ggtreeExtra")
 
 core_loaded <- function() {
   search <- paste0("package:", core)
