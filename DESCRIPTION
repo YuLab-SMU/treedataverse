@@ -23,6 +23,10 @@ Imports:
     ggplot2,
     ggtree,
     ggtreeExtra
+remotes:
+    yulab-smu/ggtree,
+    yulab-smu/ggtreeExtra,
+    yulab-smu/treeio
 Encoding: UTF-8
 License: Artistic-2.0
 RoxygenNote: 7.1.2
