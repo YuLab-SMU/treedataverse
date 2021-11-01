@@ -11,7 +11,8 @@ The goal of `treedataverse` is to make it easy to install and load multiple 'tre
 You can install the development version of treedataverse like so:
 
 ``` r
-remotes::install_github("YuLab-SMU/treedataverse")
+## install.packages("BiocManager")
+BiocManager::install("YuLab-SMU/treedataverse")
 ```
 
 ## Usage
